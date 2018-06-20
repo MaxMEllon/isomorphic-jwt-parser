@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/MaxMEllon/isomorphic-jwt-parser.git",
   "author": "MaxMEllon <maxmellon1994@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader ./test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "detect-node": "^2.0.3",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0"
+  }
 }
